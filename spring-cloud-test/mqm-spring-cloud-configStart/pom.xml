@@ -4,7 +4,7 @@
 
 	<groupId>mqm</groupId>
 	<artifactId>mqm-spring-cloud-configStart</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>mqm-spring-cloud-configStart</name>
