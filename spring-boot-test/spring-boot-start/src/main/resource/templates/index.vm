@@ -5,7 +5,7 @@
     <title></title>
 </head>
 <body>
-thymeleaf模板引擎
-<h1 th:text="${host}">Hello World</h1>
+Velocity模板
+<h1>${host}</h1>
 </body>
 </html>

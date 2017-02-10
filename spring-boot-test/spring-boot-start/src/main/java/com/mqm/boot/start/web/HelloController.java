@@ -3,6 +3,7 @@ package com.mqm.boot.start.web;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * @author mqm
@@ -19,4 +20,9 @@ public class HelloController {
         return "index";  
     }
 
+	@RequestMapping("/hello2")
+	@ResponseBody
+    public String hello() {
+        return "Hello World2";
+    }
 }

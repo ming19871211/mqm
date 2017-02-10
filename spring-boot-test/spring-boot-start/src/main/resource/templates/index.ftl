@@ -5,7 +5,7 @@
     <title></title>
 </head>
 <body>
-thymeleaf模板引擎
-<h1 th:text="${host}">Hello World</h1>
+FreeMarker模板引擎
+<h1>${host}</h1>
 </body>
 </html>
