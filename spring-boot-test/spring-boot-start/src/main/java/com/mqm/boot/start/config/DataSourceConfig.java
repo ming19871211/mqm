@@ -1,4 +1,4 @@
-package com.mqm.boot.start.config;
+/*package com.mqm.boot.start.config;
 
 import javax.sql.DataSource;
 
@@ -42,3 +42,4 @@ public class DataSourceConfig {
 	    return new JdbcTemplate(dataSource);
 	}
 }
+*/
