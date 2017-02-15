@@ -25,4 +25,14 @@ public class HelloController {
     public String hello() {
         return "Hello World2";
     }
+	
+	@RequestMapping("/login")
+    public String login() {
+        return "login";
+    }
+	
+	@RequestMapping("/logout")
+	public String logout(){
+		return "logout";
+	}
 }
